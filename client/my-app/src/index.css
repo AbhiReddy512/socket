@@ -1,0 +1,30 @@
+*{
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+#root{
+  overflow: hidden;
+  display: flex;
+  height:100%;
+}
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+/* For all scrollable elements */
+::-webkit-scrollbar {
+  display: none; /* Hides the scrollbar for WebKit-based browsers (Chrome, Safari, etc.) */
+}
+
+.scroll-hidden {
+  scrollbar-width: none; /* Hides the scrollbar for Firefox */
+  -ms-overflow-style: none; /* Hides the scrollbar for Internet Explorer 10+ */
+}
